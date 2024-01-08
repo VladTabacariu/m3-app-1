@@ -4,7 +4,7 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {col_widths: '{}'}
+  properties: {col_widths: '{}', visible: true}
   name: content_panel
   layout_properties: {slot: default}
   components:
@@ -12,6 +12,10 @@ components:
     properties: {text: button_1}
     name: button_1
     layout_properties: {grid_position: 'KBBXBR,LHJHTJ'}
+  - name: column_panel_1
+    properties: {}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'XCYKQN,NXXIQD'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
