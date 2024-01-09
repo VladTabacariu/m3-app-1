@@ -8,5 +8,4 @@ class ItemTemplate1(ItemTemplate1Template):
 
     # Any code you write here will run before the form opens.
     self.text_box_1.text = self.item['title']
-    self.text_box_1.background = 'white'
-    self.text_box_1.spacing_below = 'large'
+

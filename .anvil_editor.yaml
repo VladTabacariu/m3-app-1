@@ -5,5 +5,6 @@ unique_ids:
   modules: {}
   server_modules: {}
   assets:
+    image.jpg: '1704792227969219293557074.49207'
     standard-page.html: PFS77OSLCZBS5EJMHFNKSFQKWY4GH4IX
     theme.css: V6TAPUILRXPK3LZ4SFJ6B3SLBG6IKFOD
