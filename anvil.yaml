@@ -9,6 +9,7 @@ name: M3 App 1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 startup_form: Form1
-native_deps: {head_html: "<script src=\"https://cdn.jsdelivr.net/npm/appwrite@13.0.1/dist/iife/sdk.min.js\"\
-    ></script>\n<script>\n  console.log(\"test\")\n</script>"}
+native_deps: {head_html: '<script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.1/dist/iife/sdk.min.js"></script>
+
+    '}
 renamed: true

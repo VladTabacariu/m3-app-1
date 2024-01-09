@@ -16,6 +16,12 @@ components:
     properties: {}
     type: ColumnPanel
     layout_properties: {grid_position: 'XCYKQN,NXXIQD'}
+    components:
+    - name: repeating_panel_1
+      properties: {item_template: Form1.ItemTemplate1, spacing_above: none, spacing_below: none}
+      type: RepeatingPanel
+      layout_properties: {grid_position: 'BXPDRO,MIIEQB', row_background: ''}
+      data_bindings: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
