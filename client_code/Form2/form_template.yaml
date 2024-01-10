@@ -1,0 +1,15 @@
+container:
+  type: HtmlTemplate
+  properties: {html: "<center style=\"font-style:italic; color:#888; margin: 3em;\"\
+      >\n  (Insert your custom HTML here)\n  <h1>HEHEHE</h1>\n</center>\n<div anvil-slot=\"\
+      default\"></div>"}
+components:
+- name: text_box_1
+  properties: {}
+  type: TextBox
+  layout_properties: {slot: default}
+- name: button_1
+  properties: {text: button_1}
+  type: Button
+  layout_properties: {slot: default}
+is_package: true
