@@ -17,7 +17,7 @@ class Form1(Form1Template):
     )
     database = Appwrite.Databases(client)
     list = database.listDocuments("643fdd591a34cacf4635","643fdd6dd18939a543c0", [])
-    print(list.documents[0])
+    print(list.documents)
     def called(response):
       print(response)
     client.subscribe('documents', called);
