@@ -9,8 +9,9 @@ name: M3 App 1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 startup_form: Form1
-native_deps: {head_html: '<script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.1/dist/iife/sdk.min.js"></script>
-
-    '}
+native_deps: {head_html: "<script src=\"https://cdn.jsdelivr.net/npm/appwrite@13.0.1/dist/iife/sdk.min.js\"\
+    ></script>\n<script>\n  alert(\"test\")\n  window.addEventListener('load', ()\
+    \ => {\n    document.querySelector(\"#anvil-header\").style = \"display:none;\"\
+    \n    document.querySelector(\"body\").style = \"margin-top: 0px\"\n  }) \n</script>\n"}
 uplink_visible: true
 renamed: true
