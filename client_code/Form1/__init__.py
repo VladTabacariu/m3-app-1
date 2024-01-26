@@ -21,7 +21,7 @@ class Form1(Form1Template):
     def called(response):
       print(response)
     client.subscribe('documents', called);
-
+    print(list.documents[0]['title'])
     
     self.repeating_panel_1.items = list.documents
     
