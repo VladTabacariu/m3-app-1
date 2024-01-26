@@ -22,7 +22,10 @@ class Form1(Form1Template):
       print(response)
     client.subscribe('documents', called);
     print(list.documents[0]['title'])
-    
+    my_set = {1, 2, 3, 4, 5}
+    my_list = list(my_set)
+
+    print(my_list)
     self.repeating_panel_1.items = list.documents
     
     
