@@ -27,4 +27,8 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: outlined_1
+  properties: {role: outlined, placeholder: '1234234234'}
+  type: TextBox
+  layout_properties: {slot: title}
 custom_component: true
